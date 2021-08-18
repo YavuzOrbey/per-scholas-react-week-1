@@ -54,3 +54,8 @@ console.log(greeting("John", "male", true))
 console.log(greeting("Jill", "female", false))
 console.log(greeting("Jake", "sadasdasdfas", true))
 console.log(greeting("Judith", "fsdfsdfsdvc", false))
+
+
+let obj = "dsdas";
+obj = 10;
+obj();
