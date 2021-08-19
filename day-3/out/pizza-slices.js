@@ -94,7 +94,30 @@ function drawAnyPizzaSlice(length, width) {
     }
     return slice;
 }
+var stuff = [{ a: 3 }];
 console.log(drawSmallPizzaSlice());
 console.log(drawMediumPizzaSlice());
 console.log(drawLargePizzaSlice());
 console.log(drawAnyPizzaSlice(6, 5));
+function doThis() {
+    var stuff; //implicit any 
+    if (1 > stuff) {
+        return false;
+    }
+    return stuff;
+}
+function doAnotherThing() {
+    var stuff;
+    return undefined;
+}
+function sayHi(name, city) {
+    if (city) {
+        var response_1 = { name: name, city: city };
+    }
+    else {
+        var response_2 = { name: name };
+    }
+    return response;
+}
+var response = sayHi("hello");
+console.log(response);

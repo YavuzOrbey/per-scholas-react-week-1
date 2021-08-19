@@ -6,4 +6,4 @@ function sunnyDayMessage(isSunny:boolean, numberSunnyDays:number):string {
 }
 
 
-console.log(sunnyDayMessage(true, 1))
+console.log(sunnyDayMessage(true, 2))
